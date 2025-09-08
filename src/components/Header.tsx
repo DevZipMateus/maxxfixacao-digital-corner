@@ -56,7 +56,7 @@ const Header = () => {
               variant="default"
               size="sm"
               onClick={() => scrollToSection('contact')}
-              className="bg-gradient-primary hover:bg-primary-hover transition-all duration-300"
+              className="bg-primary hover:bg-primary-hover text-primary-foreground transition-all duration-300"
             >
               Contato
             </Button>
@@ -91,7 +91,7 @@ const Header = () => {
                 </div>
                 <Button 
                   variant="default" 
-                  className="w-full bg-gradient-primary"
+                  className="w-full bg-primary hover:bg-primary-hover text-primary-foreground"
                   onClick={() => scrollToSection('contact')}
                 >
                   Entrar em Contato

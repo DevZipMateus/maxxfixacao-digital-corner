@@ -51,7 +51,7 @@ const Hero = () => {
                 variant="outline"
                 size="lg"
                 onClick={() => scrollToSection('contact')}
-                className="border-white/60 text-white hover:bg-white/10 hover:border-white px-8 py-4 text-lg font-semibold transition-all duration-300"
+                className="border-white/60 text-white hover:bg-white/20 hover:text-primary hover:border-white px-8 py-4 text-lg font-semibold transition-all duration-300"
               >
                 Fale Conosco
               </Button>
