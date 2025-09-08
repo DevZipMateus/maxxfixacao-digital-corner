@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+# MaxxFixação - Soluções Para Indústrias
 
-## Project info
+Site institucional oficial da MaxxFixação, especialista em soluções de fixação pneumática para indústrias.
 
-**URL**: https://lovable.dev/projects/edaf231b-db4c-46e6-962f-1685e9110552
+## 🏭 Sobre a Empresa
 
-## How can I edit this code?
+A MaxxFixação é uma empresa especializada em produtos de fixação, como pregadores e grampeadores pneumáticos, atendendo diversos segmentos industriais como paletes, móveis e estofados. Com mais de 6 anos de experiência no mercado, oferecemos:
 
-There are several ways of editing your application.
+- **Manutenção especializada** em pregadores e grampeadores pneumáticos
+- **Produtos de alta qualidade** com tecnologia de ponta
+- **Atendimento personalizado** 24 horas por dia
+- **Compromisso com sustentabilidade** e responsabilidade social
 
-**Use Lovable**
+**Slogan:** *Fixando Confiança*
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/edaf231b-db4c-46e6-962f-1685e9110552) and start prompting.
+## 🌐 Informações de Contato
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Site:** [www.maxxfixacao.com.br](https://www.maxxfixacao.com.br)
+- **Telefone:** (51) 98537-1902
+- **E-mail:** vendas@maxxfix.com.br
+- **Endereço:** Rua Ivoti, 447
+- **CNPJ:** 29.163.167/0001-55
 
-**Use your preferred IDE**
+## 🛠 Tecnologias Utilizadas
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Este site foi desenvolvido com:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **React** - Biblioteca JavaScript para interfaces
+- **TypeScript** - Tipagem estática para JavaScript
+- **Tailwind CSS** - Framework CSS utilitário
+- **Vite** - Build tool e bundler
+- **shadcn/ui** - Componentes de interface modernos
+- **Lucide React** - Ícones profissionais
 
-Follow these steps:
+## 🎨 Características do Site
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- ✅ **Design responsivo** - Adaptado para todos os dispositivos
+- ✅ **SEO otimizado** - Meta tags, Open Graph e estrutura semântica
+- ✅ **Performance elevada** - Carregamento rápido e otimizado
+- ✅ **Acessibilidade** - Compatível com leitores de tela e navegação por teclado
+- ✅ **WhatsApp integrado** - Botão flutuante para contato direto
+- ✅ **Animações suaves** - Transições elegantes e profissionais
+- ✅ **Paleta de cores 60/30/10** - Design system profissional
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📱 Funcionalidades
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Menu de navegação fixo** com scroll suave
+- **Seção hero** impactante com estatísticas
+- **Sobre a empresa** com valores e diferenciais
+- **Serviços detalhados** com aplicações industriais
+- **Formulário de contato** integrado
+- **Botão WhatsApp flutuante** para atendimento imediato
+- **Página 404 personalizada**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🚀 Como executar localmente
+
+```bash
+# Instalar dependências
+npm install
+
+# Executar em modo de desenvolvimento
 npm run dev
+
+# Build para produção
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## 📞 Suporte
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Para dúvidas sobre o site ou serviços da MaxxFixação:
 
-**Use GitHub Codespaces**
+- **WhatsApp:** [Clique aqui](https://wa.me/5551985371902)
+- **E-mail:** vendas@maxxfix.com.br
+- **Telefone:** (51) 98537-1902
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/edaf231b-db4c-46e6-962f-1685e9110552) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+*Desenvolvido com ❤️ para a MaxxFixação - Fixando Confiança há mais de 6 anos*
