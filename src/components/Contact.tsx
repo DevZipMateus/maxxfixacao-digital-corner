@@ -238,7 +238,7 @@ const Contact = () => {
                     asChild
                     variant="outline"
                     size="lg"
-                    className="border-white/60 text-white hover:bg-white/10 hover:border-white transition-all duration-300"
+                    className="bg-transparent border-white/60 text-white hover:bg-white/10 hover:border-white transition-all duration-300"
                   >
                     <a 
                       href="https://wa.me/5551985371902?text=Olá! Gostaria de saber mais sobre os serviços da MaxxFixação"
