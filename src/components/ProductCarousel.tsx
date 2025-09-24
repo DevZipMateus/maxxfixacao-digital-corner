@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail } from "lucide-react";
+import Autoplay from "embla-carousel-autoplay";
 
 interface ProductSpec {
   label: string;
@@ -42,7 +43,16 @@ const ProductCarousel = ({ title, images, specs, applications, onContact }: Prod
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Carousel Section */}
           <div className="space-y-4">
-            <Carousel className="w-full">
+            <Carousel 
+              className="w-full"
+              plugins={[
+                Autoplay({
+                  delay: 3000,
+                  stopOnInteraction: true,
+                  stopOnMouseEnter: true
+                })
+              ]}
+            >
               <CarouselContent>
                 {images.map((image, index) => (
                   <CarouselItem key={index}>
