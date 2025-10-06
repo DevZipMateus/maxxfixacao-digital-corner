@@ -173,6 +173,22 @@ const Products = () => {
       applications: "Indicado para calçados, vassouras, artesanatos, quadros, brinquedos, pincéis, móveis de vimes, juncos e caixas de frutas."
     },
     {
+      id: "grampeador-fixalev-2002",
+      name: "Grampeador Fixalev 2002",
+      images: [
+        "/produtos/Grampeador Fixalev 2002/2002_sem_fundo.png",
+        "/produtos/Grampeador Fixalev 2002/2002-2.jpg",
+        "/produtos/Grampeador Fixalev 2002/2002-3.jpg",
+        "/produtos/Grampeador Fixalev 2002/tipos_de_grampos.jpg"
+      ],
+      specs: [
+        { label: "Modelo", value: "Fixalev 2002" },
+        { label: "Grampos", value: "92 (15mm a 32mm) e 90 (15mm a 32mm)" },
+        { label: "Características", value: "Alta velocidade de grampeação" }
+      ],
+      applications: "Projetado para dar mais velocidade de grampeação, atendendo às necessidades de produtividade. Indicado para fixações médias, como móveis, estofados (percintas de borracha e elásticas), lastros de camas, urnas funerárias, embalagens de madeira e caixas de frutas."
+    },
+    {
       id: "pinos-f",
       name: "Linha Pinos F de 10mm a 50mm",
       images: [
