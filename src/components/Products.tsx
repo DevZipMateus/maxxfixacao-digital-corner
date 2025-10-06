@@ -140,6 +140,114 @@ const Products = () => {
         { label: "Modelo", value: "MT-N851-H" }
       ],
       applications: "Grampeador pneumático de alta performance para uso profissional."
+    },
+    {
+      id: "pinos-f",
+      name: "Linha Pinos F de 10mm a 50mm",
+      images: [
+        "/produtos/Pinos F 10mm a 50mm/Linha_Pinos_F_de_10mm_a_50mm.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Pinos F" },
+        { label: "Tamanhos", value: "10mm a 50mm" }
+      ],
+      applications: "Ideal para fixação em madeira, marcenaria e acabamentos."
+    },
+    {
+      id: "grampos-106",
+      name: "Linha 106 para Grampeador Manual",
+      images: [
+        "/produtos/Grampos 106 para Grampeador Manual/Linha_106_para_Grampeador_Manual.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Grampos 106" },
+        { label: "Aplicação", value: "Grampeador Manual" }
+      ],
+      applications: "Grampos para uso manual em diversos materiais."
+    },
+    {
+      id: "grampos-gs",
+      name: "Linha GS de 16mm a 50mm",
+      images: [
+        "/produtos/Grampos GS 16mm a 50mm/Linha_GS_de_16mm_a_50mm.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Grampos GS" },
+        { label: "Tamanhos", value: "16mm a 50mm" }
+      ],
+      applications: "Grampos para uso profissional em diversos tipos de materiais."
+    },
+    {
+      id: "grampos-92",
+      name: "Linha 92 de 15mm a 38mm",
+      images: [
+        "/produtos/Grampos 92 15mm a 38mm/Linha_92_de_15mm_a_38mm.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Grampos 92" },
+        { label: "Tamanhos", value: "15mm a 38mm" }
+      ],
+      applications: "Grampos de alta resistência para aplicações diversas."
+    },
+    {
+      id: "pinos-t",
+      name: "Linha Pinos T de 20mm a 50mm",
+      images: [
+        "/produtos/Pinos T 20mm a 50mm/Lina_Pinos_T_de_20mm_a_50mm.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Pinos T" },
+        { label: "Tamanhos", value: "20mm a 50mm" }
+      ],
+      applications: "Pinos tipo T para fixações em madeira e marcenaria."
+    },
+    {
+      id: "grampos-14",
+      name: "Linha 14 de 19mm a 50mm",
+      images: [
+        "/produtos/Grampos 14 19mm a 50mm/Linha_14_de_19mm_a_50mm.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Grampos 14" },
+        { label: "Tamanhos", value: "19mm a 50mm" }
+      ],
+      applications: "Grampos profissionais para uso em diversos materiais."
+    },
+    {
+      id: "pregos-rolo",
+      name: "Completa Linha de Pregos em Rolo Anelados e Espirais",
+      images: [
+        "/produtos/Pregos em rolo anelados e espirais/Completa_linha_de_Pregos_em_rolo_anelados_e_espirais.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Pregos em Rolo" },
+        { label: "Modelos", value: "Anelados e Espirais" }
+      ],
+      applications: "Pregos em rolo para uso com pregadores pneumáticos em construção civil e marcenaria."
+    },
+    {
+      id: "grampos-80-pcw",
+      name: "Linha 80 PCW de 4mm a 16mm",
+      images: [
+        "/produtos/Grampos 80 PCW 4mm a 16mm/Linha_80_PCW_de_4mm_a_16mm.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Grampos 80 PCW" },
+        { label: "Tamanhos", value: "4mm a 16mm" }
+      ],
+      applications: "Grampos PCW para aplicações leves e acabamentos."
+    },
+    {
+      id: "grampos-box",
+      name: "Linha BOX de 15mm a 22mm",
+      images: [
+        "/produtos/Grampos BOX 15mm a 22mm/Linha_BOX_de_15mm_a_22mm.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Grampos BOX" },
+        { label: "Tamanhos", value: "15mm a 22mm" }
+      ],
+      applications: "Grampos BOX para fechamento de caixas e embalagens."
     }
   ];
 
