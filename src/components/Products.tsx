@@ -272,6 +272,23 @@ const Products = () => {
       applications: "Essencial para o tratamento de ar comprimido em sistemas pneumáticos, garantindo filtragem, regulagem de pressão e lubrificação adequada das ferramentas pneumáticas."
     },
     {
+      id: "filtro-regulador-lubrificador-cpae2400",
+      name: "Filtro Regulador e Lubrificador CPAE2400",
+      images: [
+        "/produtos/Filtro Regulador e Lubrificador CPAE2400/Filtro_Regulador_e_Lubrificador_CPAE2400.png"
+      ],
+      specs: [
+        { label: "Tipo", value: "Filtro Regulador e Lubrificador" },
+        { label: "Modelo", value: "CPAE2400" },
+        { label: "Rosca", value: "Médio - 1/2\" BSP" },
+        { label: "Pressão Máxima", value: "10,5 kgf/cm² (150 psi)" },
+        { label: "Temperatura", value: "5ºC a 60ºC" },
+        { label: "Capacidade do Copo", value: "Médio - 75 ml" },
+        { label: "Vazão à 7 kgf/cm²", value: "3.000 l/min" }
+      ],
+      applications: "Essencial para o tratamento de ar comprimido em sistemas pneumáticos de maior vazão, garantindo filtragem, regulagem de pressão e lubrificação adequada das ferramentas pneumáticas."
+    },
+    {
       id: "pinos-f",
       name: "Linha Pinos F de 10mm a 50mm",
       images: [
