@@ -158,6 +158,21 @@ const Products = () => {
       applications: "Projetado para minimizar o esforço físico do operador. Ideal para montagem de estruturas de estofados, camas box, móveis, embalagens de madeira, urnas funerárias, carretéis de madeira e construção civil. Menor peso, altura e comprimento da categoria com empunhadura anatômica emborrachada."
     },
     {
+      id: "grampeador-422j",
+      name: "Grampeador 422J Meite para grampos ref. PCN",
+      images: [
+        "/produtos/Grampeador 422J Meite/Grampeador_422J_para_grampos_PCN.jpg",
+        "/produtos/Grampeador 422J Meite/1688154806_IMG_5424.jpg"
+      ],
+      specs: [
+        { label: "Modelo", value: "422J Meite" },
+        { label: "Grampos", value: "PCN de 7mm a 22mm" },
+        { label: "Pressão Mínima", value: "90 Lbs/Pol²" },
+        { label: "Pressão Máxima", value: "110 Lbs/Pol²" }
+      ],
+      applications: "Indicado para calçados, vassouras, artesanatos, quadros, brinquedos, pincéis, móveis de vimes, juncos e caixas de frutas."
+    },
+    {
       id: "pinos-f",
       name: "Linha Pinos F de 10mm a 50mm",
       images: [
