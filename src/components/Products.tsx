@@ -397,6 +397,22 @@ const Products = () => {
       applications: "Indicado para trabalhos em madeiras médias e duras, ideal para montagem de gavetas, cadeiras, esquadrias, vimes, embalagens, móveis decorativos, montagens de casas infantis e balcões frigoríficos. Utiliza pinos com cabeça ref. T (Grosso), de 15 a 50 mm, especialmente desenvolvidos para madeiras médias e duras. Pino T é utilizado em fixações mais pesadas."
     },
     {
+      id: "pinador-t50-imeco",
+      name: "Pinador T 50 IMECO",
+      images: [
+        "/produtos/Pinador T50 IMECO/Pinador_T50.jpg",
+        "/produtos/Pinador T50 IMECO/2-3.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Pinador Pneumático" },
+        { label: "Marca", value: "Imeco" },
+        { label: "Pinos Utilizados", value: "Ref. T (Grosso) de 15 a 50 mm" },
+        { label: "Pressão Mínima", value: "90 Lbs/Pol²" },
+        { label: "Pressão Máxima", value: "110 Lbs/Pol²" }
+      ],
+      applications: "Indicado para trabalhos em madeiras médias e duras, ideal para montagem de gavetas, cadeiras, esquadrias, vimes, embalagens, móveis decorativos, montagens de casas infantis e balcões frigoríficos. Utiliza pinos com cabeça ref. T (Grosso), de 15 a 50 mm, especialmente desenvolvidos para madeiras médias e duras. Pino T é utilizado em fixações mais pesadas."
+    },
+    {
       id: "filtro-regulador-frme1200",
       name: "Filtro Regulador FRME1200",
       images: [
