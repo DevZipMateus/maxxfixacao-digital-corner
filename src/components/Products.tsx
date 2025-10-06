@@ -189,6 +189,23 @@ const Products = () => {
       applications: "Projetado para dar mais velocidade de grampeação, atendendo às necessidades de produtividade. Indicado para fixações médias, como móveis, estofados (percintas de borracha e elásticas), lastros de camas, urnas funerárias, embalagens de madeira e caixas de frutas."
     },
     {
+      id: "grampeador-box-manual-35-19",
+      name: "Grampeador BOX Manual 35/19",
+      images: [
+        "/produtos/Grampeador BOX manual 35-19/1691686280_IMG_5455.jpg",
+        "/produtos/Grampeador BOX manual 35-19/1691686296_IMG_5457.jpg",
+        "/produtos/Grampeador BOX manual 35-19/1691686297_IMG_5458.jpg",
+        "/produtos/Grampeador BOX manual 35-19/1691686295_IMG_5461.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Grampeador Manual BOX" },
+        { label: "Peso", value: "2,090 kg" },
+        { label: "Grampos", value: "35 de 18mm e 19mm" },
+        { label: "Capacidade", value: "100 grampos" }
+      ],
+      applications: "Ideal para montagem e fechamento de tampas e fundos de caixas de papelão. Garantindo resistência e segurança das embalagens."
+    },
+    {
       id: "pinos-f",
       name: "Linha Pinos F de 10mm a 50mm",
       images: [
