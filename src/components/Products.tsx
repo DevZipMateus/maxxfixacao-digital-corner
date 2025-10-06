@@ -289,6 +289,23 @@ const Products = () => {
       applications: "Essencial para o tratamento de ar comprimido em sistemas pneumáticos de maior vazão, garantindo filtragem, regulagem de pressão e lubrificação adequada das ferramentas pneumáticas."
     },
     {
+      id: "filtro-regulador-frme1200",
+      name: "Filtro Regulador FRME1200",
+      images: [
+        "/produtos/Filtro Regulador FRME1200/Filtro_Regulador_FRME1200.png"
+      ],
+      specs: [
+        { label: "Tipo", value: "Filtro Regulador" },
+        { label: "Modelo", value: "FRME1200" },
+        { label: "Rosca", value: "Médio - 1/2\" BSP" },
+        { label: "Pressão Máxima", value: "10,5 kgf/cm² (150 psi)" },
+        { label: "Temperatura", value: "5ºC a 60ºC" },
+        { label: "Capacidade do Copo", value: "Mini - 75 ml" },
+        { label: "Vazão à 7 kgf/cm²", value: "3.000 l/min" }
+      ],
+      applications: "Essencial para filtragem e regulagem de pressão em sistemas pneumáticos, garantindo ar limpo e pressão adequada para as ferramentas pneumáticas."
+    },
+    {
       id: "pinos-f",
       name: "Linha Pinos F de 10mm a 50mm",
       images: [
