@@ -307,13 +307,17 @@ const Products = () => {
         "/produtos/Engates Rapidos 1-4/engate-rapido-1-4-er-767-m.png",
         "/produtos/Engates Rapidos 1-4/ER-767-F-14.png",
         "/produtos/Engates Rapidos 1-4/ER-200-F-14.jpg",
-        "/produtos/Engates Rapidos 1-4/ER-200-M-14.jpg"
+        "/produtos/Engates Rapidos 1-4/ER-200-M-14.jpg",
+        "/produtos/Engates Rapidos 1-4/ERCP-767-F-14.jpg",
+        "/produtos/Engates Rapidos 1-4/ERCP-767-M-14.jpg",
+        "/produtos/Engates Rapidos 1-4/Pino-engate-femea.jpeg",
+        "/produtos/Engates Rapidos 1-4/Pino-engate.jpeg"
       ],
       specs: [
         { label: "Tipo", value: "Engate Rápido" },
         { label: "Tamanho", value: "1/4\"" },
         { label: "Material", value: "Metálico" },
-        { label: "Modelos", value: "ER-767 e ER-200" }
+        { label: "Modelos", value: "ER-767, ER-200 e ERCP-767" }
       ],
       applications: "Engates rápidos profissionais para conexão de mangueiras pneumáticas, garantindo vedação perfeita e troca rápida."
     },
@@ -323,13 +327,15 @@ const Products = () => {
       images: [
         "/produtos/Engates Rapidos 1-2/ER-767-F-12.png",
         "/produtos/Engates Rapidos 1-2/ER-200-F-12.jpg",
-        "/produtos/Engates Rapidos 1-2/ER-200-M-12.jpg"
+        "/produtos/Engates Rapidos 1-2/ER-200-M-12.jpg",
+        "/produtos/Engates Rapidos 1-2/ER-767-M-12.jpg",
+        "/produtos/Engates Rapidos 1-2/ERCP-767-M-12.png"
       ],
       specs: [
         { label: "Tipo", value: "Engate Rápido" },
         { label: "Tamanho", value: "1/2\"" },
         { label: "Material", value: "Metálico" },
-        { label: "Modelos", value: "ER-767 e ER-200" }
+        { label: "Modelos", value: "ER-767, ER-200 e ERCP-767" }
       ],
       applications: "Engates rápidos profissionais de maior vazão para conexão de mangueiras pneumáticas em aplicações que exigem maior fluxo de ar."
     }
