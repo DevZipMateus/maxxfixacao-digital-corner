@@ -142,6 +142,22 @@ const Products = () => {
       applications: "Grampeador pneumático de alta performance para uso profissional."
     },
     {
+      id: "grampeador-14-50-compacto",
+      name: "Grampeador Pneumático 14/50 - COMPACTO",
+      images: [
+        "/produtos/Grampeador Pneumatico 14-50 COMPACTO/IMG_7520_Bx.jpg",
+        "/produtos/Grampeador Pneumatico 14-50 COMPACTO/grampo-14.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Grampeador Pneumático COMPACTO" },
+        { label: "Grampos", value: "14 (16mm a 50mm)" },
+        { label: "Pressão Mínima", value: "90 Lbs/Pol²" },
+        { label: "Pressão Máxima", value: "110 Lbs/Pol²" },
+        { label: "Características", value: "Leve, Silencioso, Ergonômico" }
+      ],
+      applications: "Projetado para minimizar o esforço físico do operador. Ideal para montagem de estruturas de estofados, camas box, móveis, embalagens de madeira, urnas funerárias, carretéis de madeira e construção civil. Menor peso, altura e comprimento da categoria com empunhadura anatômica emborrachada."
+    },
+    {
       id: "pinos-f",
       name: "Linha Pinos F de 10mm a 50mm",
       images: [
