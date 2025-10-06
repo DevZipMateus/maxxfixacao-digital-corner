@@ -325,6 +325,25 @@ const Products = () => {
       applications: "Sistema completo 3 em 1 para tratamento de ar comprimido. Filtro de ar remove partículas sólidas e água condensada. Regulador de pressão mantém pressão estável e ideal. Lubrificador pulveriza óleo ISO 32 para proteção de componentes pneumáticos. Ideal para proteção completa de válvulas, cilindros e ferramentas pneumáticas."
     },
     {
+      id: "filtro-regulador-lubrificador-cpa3601",
+      name: "Filtro Regulador e Lubrificador CPA3601",
+      images: [
+        "/produtos/Filtro Regulador e Lubrificador CPA3601/Filtro_Regulador_e_Lubrificador_CPA3601.png"
+      ],
+      specs: [
+        { label: "Tipo", value: "Filtro Regulador Lubrificador Industrial" },
+        { label: "Pressão Máxima", value: "17 kgf/cm² (242 psi)" },
+        { label: "Temperatura", value: "-10ºC a 50ºC" },
+        { label: "Capacidade do Copo", value: "1 litro" },
+        { label: "Fluído", value: "Ar Comprimido" },
+        { label: "Corpo", value: "Alumínio injetado" },
+        { label: "Vedações", value: "Buna-N" },
+        { label: "Copos", value: "Alumínio" },
+        { label: "Porosidade do Filtro", value: "20 mícrons" }
+      ],
+      applications: "Sistema industrial 3 em 1 de alta capacidade para tratamento de ar comprimido. Filtro de ar com elemento em polipropileno poroso retira partículas sólidas e água condensada, com drenagem manual ou automática. Regulador de pressão com êmbolo de alumínio mantém pressão estável com botão de trava de segurança. Lubrificador com cúpula visora 360º permite visualização do gotejamento e regulagem do teor de óleo, facilitando recarga com válvula externa sem parada do equipamento. Recomendado óleo ISO 32. Ideal para aplicações industriais de grande volume."
+    },
+    {
       id: "filtro-regulador-frme1200",
       name: "Filtro Regulador FRME1200",
       images: [
@@ -568,12 +587,47 @@ const Products = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
-          <div className="inline-flex items-center gap-2 px-6 py-3 bg-muted rounded-full">
-            <Settings className="w-5 h-5 text-primary" />
-            <span className="text-sm font-medium">
-              Peças de reposição disponíveis para todos os modelos
-            </span>
+        <div className="mt-16 space-y-8">
+          <div className="text-center">
+            <h3 className="text-2xl md:text-3xl font-bold mb-6">Peças de Reposição</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
+              <img 
+                src="/produtos/Pecas de Reposicao/Pecas_de_Pregadores.jpg" 
+                alt="Peças de reposição para pregadores pneumáticos"
+                className="w-full h-48 object-cover rounded-lg shadow-lg"
+              />
+              <img 
+                src="/produtos/Pecas de Reposicao/Pecas_de_Pregadores1.jpg" 
+                alt="Conjunto de peças para pregadores"
+                className="w-full h-48 object-cover rounded-lg shadow-lg"
+              />
+              <img 
+                src="/produtos/Pecas de Reposicao/Conjuntos_de_pistao_e_martelo.png" 
+                alt="Conjuntos de pistão e martelo"
+                className="w-full h-48 object-cover rounded-lg shadow-lg"
+              />
+              <img 
+                src="/produtos/Pecas de Reposicao/Pecas_Originais_para_Grampeadores_Pneumaticos.jpg" 
+                alt="Peças originais para grampeadores pneumáticos"
+                className="w-full h-48 object-cover rounded-lg shadow-lg"
+              />
+            </div>
+            <div className="inline-flex items-center gap-2 px-6 py-3 bg-muted rounded-full mb-6">
+              <Settings className="w-5 h-5 text-primary" />
+              <span className="text-sm font-medium">
+                Peças de reposição originais disponíveis para todos os modelos
+              </span>
+            </div>
+            <div className="max-w-3xl mx-auto">
+              <h4 className="text-lg font-semibold mb-4">Compatível com as marcas:</h4>
+              <div className="flex flex-wrap justify-center gap-3">
+                {["AEROPRO", "WORKER", "VONDER", "DETACK", "BEA", "EQUIPA TOOLS", "PACAR", "ROTTA", "PREGOFIX", "MAX", "MEITE", "ULTRA", "BASSO", "AIRFIX", "PDR"].map((brand) => (
+                  <span key={brand} className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
+                    {brand}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
