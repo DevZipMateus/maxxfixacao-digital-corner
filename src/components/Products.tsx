@@ -223,6 +223,20 @@ const Products = () => {
       applications: "Ideal para montagem e fechamento de fundo de caixas de papelão. Garantindo resistência e segurança das embalagens."
     },
     {
+      id: "grampeador-pneumatico-f7",
+      name: "Grampeador Pneumático F7",
+      images: [
+        "/produtos/Grampeador Pneumatico F7/IMG_7548_Bx.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Grampeador Pneumático F7" },
+        { label: "Grampos", value: "GSW" },
+        { label: "Pressão Mínima", value: "90 Lbs/Pol²" },
+        { label: "Pressão Máxima", value: "110 Lbs/Pol²" }
+      ],
+      applications: "Grampeador F7 para grampos ref. GSW, utilizado para juntar madeiras, quadro de portas, montagem de caixas e embalagens."
+    },
+    {
       id: "pinos-f",
       name: "Linha Pinos F de 10mm a 50mm",
       images: [
