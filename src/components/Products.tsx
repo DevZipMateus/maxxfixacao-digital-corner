@@ -344,6 +344,25 @@ const Products = () => {
       applications: "Sistema industrial 3 em 1 de alta capacidade para tratamento de ar comprimido. Filtro de ar com elemento em polipropileno poroso retira partículas sólidas e água condensada, com drenagem manual ou automática. Regulador de pressão com êmbolo de alumínio mantém pressão estável com botão de trava de segurança. Lubrificador com cúpula visora 360º permite visualização do gotejamento e regulagem do teor de óleo, facilitando recarga com válvula externa sem parada do equipamento. Recomendado óleo ISO 32. Ideal para aplicações industriais de grande volume."
     },
     {
+      id: "pinador-f50-imeco",
+      name: "Pinador F50 Imeco",
+      images: [
+        "/produtos/Pinador F50 Imeco/Pinador_F50.jpg",
+        "/produtos/Pinador F50 Imeco/1-2.jpg",
+        "/produtos/Pinador F50 Imeco/PREGOS1.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Pinador Pneumático" },
+        { label: "Marca", value: "Imeco" },
+        { label: "Pinos Utilizados", value: "Ref. F (Fino) de 10 a 50 mm" },
+        { label: "Largura da Cabeça", value: "2,0 mm" },
+        { label: "Dimensão do Pino", value: "⌀ 1.0 x 1.30mm" },
+        { label: "Pressão Mínima", value: "90 Lbs/Pol²" },
+        { label: "Pressão Máxima", value: "110 Lbs/Pol²" }
+      ],
+      applications: "Indicado para trabalhos em madeiras médias-macias, ideal para montagem de gavetas, cadeiras, esquadrias, vimes, embalagens, móveis decorativos e molduras. Utiliza pinos com cabeça ref. F (Fino), de 10 a 50 mm, especialmente desenvolvidos para madeiras médias-macias."
+    },
+    {
       id: "filtro-regulador-frme1200",
       name: "Filtro Regulador FRME1200",
       images: [
