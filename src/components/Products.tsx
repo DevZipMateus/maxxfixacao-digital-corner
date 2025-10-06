@@ -237,6 +237,24 @@ const Products = () => {
       applications: "Grampeador F7 para grampos ref. GSW, utilizado para juntar madeiras, quadro de portas, montagem de caixas e embalagens."
     },
     {
+      id: "grampeador-pneumatico-novo-robusto-2000",
+      name: "Grampeador Pneumático Novo Robusto 2000",
+      images: [
+        "/produtos/Grampeador Pneumatico Novo Robusto 2000/IMG_7510_Bx.jpg",
+        "/produtos/Grampeador Pneumatico Novo Robusto 2000/2-2.jpg",
+        "/produtos/Grampeador Pneumatico Novo Robusto 2000/3.jpg",
+        "/produtos/Grampeador Pneumatico Novo Robusto 2000/grampos_14.jpg",
+        "/produtos/Grampeador Pneumatico Novo Robusto 2000/grampos_GS.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Grampeador Pneumático Robusto" },
+        { label: "Grampos", value: "14 e GS até 50mm" },
+        { label: "Pressão Mínima", value: "90 Lbs/Pol²" },
+        { label: "Pressão Máxima", value: "110 Lbs/Pol²" }
+      ],
+      applications: "Indicado para aplicações em estruturas de estofados, camas box, móveis e embalagens de madeira, pallets leves, carretéis de madeira, urnas funerárias, construção civil e balcões frigoríficos."
+    },
+    {
       id: "pinos-f",
       name: "Linha Pinos F de 10mm a 50mm",
       images: [
