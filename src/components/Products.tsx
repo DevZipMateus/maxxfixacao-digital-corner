@@ -242,9 +242,7 @@ const Products = () => {
       images: [
         "/produtos/Grampeador Pneumatico Novo Robusto 2000/IMG_7510_Bx.jpg",
         "/produtos/Grampeador Pneumatico Novo Robusto 2000/2-2.jpg",
-        "/produtos/Grampeador Pneumatico Novo Robusto 2000/3.jpg",
-        "/produtos/Grampeador Pneumatico Novo Robusto 2000/grampos_14.jpg",
-        "/produtos/Grampeador Pneumatico Novo Robusto 2000/grampos_GS.jpg"
+        "/produtos/Grampeador Pneumatico Novo Robusto 2000/3.jpg"
       ],
       specs: [
         { label: "Tipo", value: "Grampeador Pneumático Robusto" },
