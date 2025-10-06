@@ -306,6 +306,25 @@ const Products = () => {
       applications: "Essencial para filtragem e regulagem de pressão em sistemas pneumáticos de maior vazão, garantindo ar limpo e pressão adequada para as ferramentas pneumáticas."
     },
     {
+      id: "filtro-regulador-lubrificador-14-mini-medio",
+      name: "Filtro Regulador Lubrificador 1/4\" Mini / Médio",
+      images: [
+        "/produtos/Filtro Regulador Lubrificador 1-4/CPA2400.png"
+      ],
+      specs: [
+        { label: "Tipo", value: "Filtro Regulador Lubrificador Completo" },
+        { label: "Pressão Máxima", value: "10,5 kgf/cm² (150 psi)" },
+        { label: "Temperatura", value: "-10ºC a 50ºC" },
+        { label: "Capacidade do Copo", value: "Mini = 45 ml / Média = 120 ml" },
+        { label: "Fluído", value: "Ar Comprimido" },
+        { label: "Corpo", value: "Alumínio injetado" },
+        { label: "Vedações", value: "Buna-N" },
+        { label: "Copos", value: "Policarbonato, Nylon ou Alumínio" },
+        { label: "Porosidade", value: "20 mícrons" }
+      ],
+      applications: "Sistema completo 3 em 1 para tratamento de ar comprimido. Filtro de ar remove partículas sólidas e água condensada. Regulador de pressão mantém pressão estável e ideal. Lubrificador pulveriza óleo ISO 32 para proteção de componentes pneumáticos. Ideal para proteção completa de válvulas, cilindros e ferramentas pneumáticas."
+    },
+    {
       id: "filtro-regulador-frme1200",
       name: "Filtro Regulador FRME1200",
       images: [
