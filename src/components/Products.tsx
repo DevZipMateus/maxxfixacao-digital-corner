@@ -248,6 +248,90 @@ const Products = () => {
         { label: "Tamanhos", value: "15mm a 22mm" }
       ],
       applications: "Grampos BOX para fechamento de caixas e embalagens."
+    },
+    {
+      id: "mangueira-espu-100",
+      name: "Mangueira ESPU 100 - Espiral em Poliuretano 10m",
+      images: [
+        "/produtos/Mangueiras PU/mangueira-pu-1.jpg",
+        "/produtos/Mangueiras PU/mangueira-pu-2.jpg",
+        "/produtos/Mangueiras PU/mangueira-pu-3.jpeg"
+      ],
+      specs: [
+        { label: "Modelo", value: "ESPU 100" },
+        { label: "Comprimento", value: "10 metros" },
+        { label: "Material", value: "Poliuretano" },
+        { label: "Terminal", value: "COM Terminal" },
+        { label: "Cor", value: "Azul" }
+      ],
+      applications: "Mangueira espiral em poliuretano para sistemas pneumáticos, ideal para conexão de ferramentas pneumáticas."
+    },
+    {
+      id: "mangueira-espu-500",
+      name: "Mangueira ESPU 500 - Espiral em Poliuretano 5m",
+      images: [
+        "/produtos/Mangueiras PU/mangueira-pu-2.jpg",
+        "/produtos/Mangueiras PU/mangueira-pu-1.jpg",
+        "/produtos/Mangueiras PU/mangueira-pu-3.jpeg"
+      ],
+      specs: [
+        { label: "Modelo", value: "ESPU 500" },
+        { label: "Comprimento", value: "5 metros" },
+        { label: "Material", value: "Poliuretano" },
+        { label: "Terminal", value: "COM Terminal" },
+        { label: "Cor", value: "Azul" }
+      ],
+      applications: "Mangueira espiral em poliuretano compacta para sistemas pneumáticos, ideal para espaços reduzidos."
+    },
+    {
+      id: "mangueira-espu-700",
+      name: "Mangueira ESPU 700 - Espiral em Poliuretano 7m",
+      images: [
+        "/produtos/Mangueiras PU/mangueira-pu-3.jpeg",
+        "/produtos/Mangueiras PU/mangueira-pu-1.jpg",
+        "/produtos/Mangueiras PU/mangueira-pu-2.jpg"
+      ],
+      specs: [
+        { label: "Modelo", value: "ESPU 700" },
+        { label: "Comprimento", value: "7 metros" },
+        { label: "Material", value: "Poliuretano" },
+        { label: "Terminal", value: "COM Terminal" },
+        { label: "Cor", value: "Azul" }
+      ],
+      applications: "Mangueira espiral em poliuretano versátil para sistemas pneumáticos, comprimento intermediário ideal para diversas aplicações."
+    },
+    {
+      id: "engates-rapidos-14",
+      name: "Engates Rápidos 1/4\"",
+      images: [
+        "/produtos/Engates Rapidos 1-4/engate-rapido-1-4-er-767-m.png",
+        "/produtos/Engates Rapidos 1-4/ER-767-F-14.png",
+        "/produtos/Engates Rapidos 1-4/ER-200-F-14.jpg",
+        "/produtos/Engates Rapidos 1-4/ER-200-M-14.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Engate Rápido" },
+        { label: "Tamanho", value: "1/4\"" },
+        { label: "Material", value: "Metálico" },
+        { label: "Modelos", value: "ER-767 e ER-200" }
+      ],
+      applications: "Engates rápidos profissionais para conexão de mangueiras pneumáticas, garantindo vedação perfeita e troca rápida."
+    },
+    {
+      id: "engates-rapidos-12",
+      name: "Engates Rápidos 1/2\"",
+      images: [
+        "/produtos/Engates Rapidos 1-2/ER-767-F-12.png",
+        "/produtos/Engates Rapidos 1-2/ER-200-F-12.jpg",
+        "/produtos/Engates Rapidos 1-2/ER-200-M-12.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Engate Rápido" },
+        { label: "Tamanho", value: "1/2\"" },
+        { label: "Material", value: "Metálico" },
+        { label: "Modelos", value: "ER-767 e ER-200" }
+      ],
+      applications: "Engates rápidos profissionais de maior vazão para conexão de mangueiras pneumáticas em aplicações que exigem maior fluxo de ar."
     }
   ];
 
