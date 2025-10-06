@@ -255,6 +255,23 @@ const Products = () => {
       applications: "Indicado para aplicações em estruturas de estofados, camas box, móveis e embalagens de madeira, pallets leves, carretéis de madeira, urnas funerárias, construção civil e balcões frigoríficos."
     },
     {
+      id: "filtro-regulador-lubrificador-cpae1200",
+      name: "Filtro Regulador e Lubrificador CPAE1200",
+      images: [
+        "/produtos/Filtro Regulador e Lubrificador CPAE1200/Filtro_Regulador_e_Lubrificador_CPAE1200.png"
+      ],
+      specs: [
+        { label: "Tipo", value: "Filtro Regulador e Lubrificador" },
+        { label: "Modelo", value: "CPAE1200" },
+        { label: "Rosca", value: "Mini - 1/4\" BSP" },
+        { label: "Pressão Máxima", value: "10,5 kgf/cm² (150 psi)" },
+        { label: "Temperatura", value: "5ºC a 60ºC" },
+        { label: "Capacidade do Copo", value: "Mini - 25 ml" },
+        { label: "Vazão à 7 kgf/cm²", value: "980 l/min" }
+      ],
+      applications: "Essencial para o tratamento de ar comprimido em sistemas pneumáticos, garantindo filtragem, regulagem de pressão e lubrificação adequada das ferramentas pneumáticas."
+    },
+    {
       id: "pinos-f",
       name: "Linha Pinos F de 10mm a 50mm",
       images: [
