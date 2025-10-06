@@ -363,6 +363,23 @@ const Products = () => {
       applications: "Indicado para trabalhos em madeiras médias-macias, ideal para montagem de gavetas, cadeiras, esquadrias, vimes, embalagens, móveis decorativos e molduras. Utiliza pinos com cabeça ref. F (Fino), de 10 a 50 mm, especialmente desenvolvidos para madeiras médias-macias."
     },
     {
+      id: "pinador-pneumatico-meite-f50g",
+      name: "Pinador Pneumático Meite F50G",
+      images: [
+        "/produtos/Pinador Pneumatico Meite F50G/Pinador_F50_Meite_F50G.jpg",
+        "/produtos/Pinador Pneumatico Meite F50G/Pinador_F50_Meite_F50G_1.jpg",
+        "/produtos/Pinador Pneumatico Meite F50G/Pinador_F50_Meite_F50G_2.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Pinador Pneumático" },
+        { label: "Marca", value: "Meite" },
+        { label: "Modelo", value: "F50G" },
+        { label: "Pinos Utilizados", value: "Ref. F (Fino) de 10 a 50 mm" },
+        { label: "Pressão de Ar", value: "60-110 psi" }
+      ],
+      applications: "Indicado para trabalhos em madeiras médias-macias, ideal para montagem de gavetas, cadeiras, esquadrias, vimes, embalagens, móveis decorativos e molduras. Utiliza pinos com cabeça ref. F (Fino), de 10 a 50 mm, especialmente desenvolvidos para madeiras médias-macias. Pinador profissional Meite com design ergonômico e alta durabilidade."
+    },
+    {
       id: "filtro-regulador-frme1200",
       name: "Filtro Regulador FRME1200",
       images: [
