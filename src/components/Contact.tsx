@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MapPin, Clock, Send } from "lucide-react";
+import { Phone, Mail, Clock, Send } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -55,12 +55,6 @@ const Contact = () => {
       title: "E-mail",
       info: "vendas@maxxfix.com.br",
       link: "mailto:vendas@maxxfix.com.br"
-    },
-    {
-      icon: <MapPin className="w-6 h-6 text-primary" />,
-      title: "Endereço",
-      info: "Rua Ivoti, 447",
-      link: "https://maps.google.com/?q=Rua+Ivoti,+447"
     },
     {
       icon: <Clock className="w-6 h-6 text-primary" />,
@@ -252,16 +246,6 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
-              {/* Map Placeholder */}
-              <Card className="border-0 shadow-lg overflow-hidden">
-                <div className="h-48 bg-muted flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="w-12 h-12 text-primary mx-auto mb-2" />
-                    <p className="text-muted-foreground font-medium">Rua Ivoti, 447</p>
-                    <p className="text-sm text-muted-foreground">Localização no mapa</p>
-                  </div>
-                </div>
-              </Card>
             </div>
           </div>
         </div>

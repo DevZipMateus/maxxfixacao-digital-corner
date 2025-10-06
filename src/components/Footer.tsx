@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, Clock } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -37,10 +37,6 @@ const Footer = () => {
                 <div className="flex items-center space-x-3 text-sm">
                   <Mail size={16} className="text-primary-light" />
                   <span className="text-accent-light">vendas@maxxfix.com.br</span>
-                </div>
-                <div className="flex items-start space-x-3 text-sm">
-                  <MapPin size={16} className="text-primary-light flex-shrink-0 mt-0.5" />
-                  <span className="text-accent-light">Rua Ivoti, 447</span>
                 </div>
                 <div className="flex items-center space-x-3 text-sm">
                   <Clock size={16} className="text-primary-light" />
@@ -100,11 +96,6 @@ const Footer = () => {
             "description": "Especialista em fixação pneumática há mais de 6 anos. Pregadores, grampeadores e manutenção especializada para paletes, móveis e estofados.",
             "slogan": "Fixando Confiança",
             "foundingDate": "2018",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Rua Ivoti, 447",
-              "addressCountry": "BR"
-            },
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+55-51-98537-1902",
