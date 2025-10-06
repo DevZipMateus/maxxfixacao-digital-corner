@@ -206,6 +206,23 @@ const Products = () => {
       applications: "Ideal para montagem e fechamento de tampas e fundos de caixas de papelão. Garantindo resistência e segurança das embalagens."
     },
     {
+      id: "grampeador-pneumatico-box-35-18",
+      name: "Grampeador Pneumático BOX 35 18",
+      images: [
+        "/produtos/Grampeador Pneumatico BOX 35 18/1640095692_box22.jpg",
+        "/produtos/Grampeador Pneumatico BOX 35 18/1640095779_box_22.jpg"
+      ],
+      specs: [
+        { label: "Tipo", value: "Grampeador Pneumático BOX" },
+        { label: "Peso", value: "2,000 kg" },
+        { label: "Grampos", value: "35 de 15 até 18mm" },
+        { label: "Capacidade", value: "100 grampos" },
+        { label: "Pressão de Trabalho", value: "80 a 110 psi" },
+        { label: "Consumo de Ar", value: "2,6 PCM" }
+      ],
+      applications: "Ideal para montagem e fechamento de fundo de caixas de papelão. Garantindo resistência e segurança das embalagens."
+    },
+    {
       id: "pinos-f",
       name: "Linha Pinos F de 10mm a 50mm",
       images: [
