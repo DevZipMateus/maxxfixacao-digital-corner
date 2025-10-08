@@ -124,10 +124,17 @@ const Products = () => {
         "/produtos/Grampeador pneumático 8016B MT/GRAMPEADOR 8016B 1.jpg"
       ],
       specs: [
-        { label: "Tipo", value: "Grampeador Pneumático" },
-        { label: "Modelo", value: "8016B MT" }
+        { label: "Grampos", value: "PCW e 80 de 6 a 16mm" },
+        { label: "Peso", value: "0.950kg" },
+        { label: "Altura", value: "145mm" },
+        { label: "Comprimento", value: "207mm" },
+        { label: "Largura", value: "50mm" },
+        { label: "Consumo de ar", value: "1 PCM" },
+        { label: "Capacidade", value: "150 grampos" },
+        { label: "Pressão de trabalho", value: "70–100psi" },
+        { label: "Entrada de ar", value: "1/4\" NPT" }
       ],
-      applications: "Ideal para grampeamento profissional em diversos materiais."
+      applications: "O grampeador 8016B Meite utiliza grampos dos modelos PCW e 80 de 6 a 16mm. Modelo compacto de alta performance, design moderno e ergonômico, com empunhadura emborrachada fornecendo maior conforto para longas jornadas de trabalho, possui baixo consumo de ar comprimido. Pistão, martelo e batente fabricados com material de alta tecnologia garantindo maior vida útil e menos paradas para manutenção. Utilizado principalmente para peças de estofados, ferragens para alta produção. Equipamento com 90 dias de garantia, prestamos manutenção e também vendemos peças de reposição."
     },
     {
       id: "grampeador-n851h",
