@@ -136,10 +136,17 @@ const Products = () => {
         "/produtos/Grampeador pneumático MT-N851-H/Grampeador pneumático MT-N851-H.jpg"
       ],
       specs: [
-        { label: "Tipo", value: "Grampeador Pneumático" },
-        { label: "Modelo", value: "MT-N851-H" }
+        { label: "Grampos", value: "14 de 19 a 50mm" },
+        { label: "Peso", value: "2,5kg" },
+        { label: "Altura", value: "288mm" },
+        { label: "Comprimento", value: "270mm" },
+        { label: "Largura", value: "93mm" },
+        { label: "Consumo de ar", value: "2,5 CFM" },
+        { label: "Capacidade", value: "140 Grampos" },
+        { label: "Pressão de trabalho", value: "80-120psi" },
+        { label: "Entrada de ar", value: "1/4\" NPT" }
       ],
-      applications: "Grampeador pneumático de alta performance para uso profissional."
+      applications: "Grampeador desenvolvido para uso profissional e hobby. Ferramenta leve e robusta, alta velocidade de resposta. Conta com mola tipo relógio, ajuste de profundidade na trava de segurança, opção de trabalho para trabalho contínuo ou intermitente, com disparo no próprio gatilho possui sistema de abertura rápida do bico facilitando agilidade ao desobstruir o bico. Direcionador de fluxo com giro 280°. Equipamento com duplo anel de garantia, prestando manutenção e também menores peças de reposição."
     },
     {
       id: "grampeador-14-50-compacto",
