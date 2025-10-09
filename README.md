@@ -4,7 +4,7 @@ Site institucional oficial da MaxxFixação, especialista em soluções de fixa�
 
 ## 🏭 Sobre a Empresa
 
-A MaxxFixação é uma empresa especializada em produtos de fixação, como pregadores e grampeadores pneumáticos, atendendo diversos segmentos industriais como paletes, móveis e estofados. Com mais de 6 anos de experiência no mercado, oferecemos:
+A MaxxFixação é uma empresa especializada em produtos de fixação, como pregadores e grampeadores pneumáticos, atendendo diversos segmentos industriais como paletes, móveis e estofados. Com mais de 10 anos de experiência no mercado, oferecemos:
 
 - **Manutenção especializada** em pregadores e grampeadores pneumáticos
 - **Produtos de alta qualidade** com tecnologia de ponta
@@ -75,4 +75,4 @@ Para dúvidas sobre o site ou serviços da MaxxFixação:
 
 ---
 
-*Desenvolvido com ❤️ para a MaxxFixação - Fixando Confiança há mais de 6 anos*
+*Desenvolvido com ❤️ para a MaxxFixação - Fixando Confiança há mais de 10 anos*

@@ -29,7 +29,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl leading-relaxed">
-              <strong>Fixando Confiança</strong> há mais de 6 anos com pregadores e grampeadores pneumáticos de alta qualidade
+              <strong>Fixando Confiança</strong> há mais de 10 anos com pregadores e grampeadores pneumáticos de alta qualidade
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">

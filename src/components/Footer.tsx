@@ -18,7 +18,7 @@ const Footer = () => {
                 />
               </div>
               <p className="text-accent-light text-sm mb-4 leading-relaxed">
-                Especialista em fixação pneumática há mais de 6 anos. 
+                Especialista em fixação pneumática há mais de 10 anos. 
                 <strong> Fixando Confiança</strong> com qualidade e tecnologia.
               </p>
               <p className="text-xs text-accent-light">
@@ -93,7 +93,7 @@ const Footer = () => {
             "alternateName": "MaxxFixação",
             "url": "https://www.maxxfixacao.com.br",
             "logo": "https://www.maxxfixacao.com.br/lovable-uploads/095dca6d-b8ef-48f0-a192-7cbd59b82e81.png",
-            "description": "Especialista em fixação pneumática há mais de 6 anos. Pregadores, grampeadores e manutenção especializada para paletes, móveis e estofados.",
+            "description": "Especialista em fixação pneumática há mais de 10 anos. Pregadores, grampeadores e manutenção especializada para paletes, móveis e estofados.",
             "slogan": "Fixando Confiança",
             "foundingDate": "2018",
             "contactPoint": {

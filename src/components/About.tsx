@@ -26,7 +26,7 @@ const About = () => {
   ];
 
   const highlights = [
-    "Mais de 6 anos de experiência no mercado",
+    "Mais de 10 anos de experiência no mercado",
     "Equipe altamente qualificada e experiente",
     "Produtos de alta tecnologia e qualidade",
     "Atendimento personalizado e eficiente",
@@ -61,7 +61,7 @@ const About = () => {
                   áreas como paletes, móveis e estofados.
                 </p>
                 <p>
-                  Fundada há mais de 6 anos, nossa empresa tem como objetivo fornecer soluções de alta 
+                  Fundada há mais de 10 anos, nossa empresa tem como objetivo fornecer soluções de alta 
                   qualidade e eficiência para nossos clientes, sempre com foco na inovação e excelência.
                 </p>
                 <p>
