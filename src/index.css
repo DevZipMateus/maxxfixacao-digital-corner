@@ -143,3 +143,20 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+#montesite-footer-badge, #montesite-footer-badge > *, #montesite-footer-badge iframe {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 63px !important;
+  z-index: 10 !important;
+}
+
+/* Ajuste Mobile para botões de passar página */
+@media (max-width: 768px) {
+  iframe {
+    padding-bottom: 40px !important;
+    box-sizing: border-box;
+  }
+}
