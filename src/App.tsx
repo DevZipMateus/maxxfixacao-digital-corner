@@ -13,11 +13,10 @@ const queryClient = new QueryClient();
 
 const Chrome = () => {
   const { pathname } = useLocation();
-  if (pathname === "/vitrine") return null;
   return (
     <>
       <Header />
-      <WhatsAppFloat />
+      {pathname !== "/vitrine" && <WhatsAppFloat />}
     </>
   );
 };

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Phone, Mail, Clock } from "lucide-react";
 
 const Footer = () => {
@@ -53,6 +54,11 @@ const Footer = () => {
                 <li>Produtos de Fixação</li>
                 <li>Consultoria Técnica</li>
                 <li>Suporte Pós-venda</li>
+                <li>
+                  <Link to="/vitrine" className="hover:text-primary-light transition-colors">
+                    Vitrine de Produtos
+                  </Link>
+                </li>
               </ul>
             </div>
 

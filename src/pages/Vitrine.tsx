@@ -1,6 +1,4 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
 
 const Vitrine = () => {
   useEffect(() => {
@@ -31,17 +29,7 @@ const Vitrine = () => {
     body.style.height = "100%";
     body.style.margin = "0";
     body.style.padding = "0";
-
-    // Configura o badge inferior
-    const badge = document.getElementById("montesite-footer-badge");
-    if (badge) {
-      badge.style.position = "fixed";
-      badge.style.bottom = "0";
-      badge.style.left = "0";
-      badge.style.width = "100%";
-      badge.style.height = "63px";
-      badge.style.zIndex = "10";
-    }
+    body.classList.add("hide-footer-badge");
 
     return () => {
       html.style.overflow = prev.htmlOverflow;
@@ -50,56 +38,17 @@ const Vitrine = () => {
       body.style.height = prev.bodyHeight;
       body.style.margin = prev.bodyMargin;
       body.style.padding = prev.bodyPadding;
+      body.classList.remove("hide-footer-badge");
       if (prevDesc) meta?.setAttribute("content", prevDesc);
     };
   }, []);
 
   return (
-    <>
-      <header
-        className="bg-background shadow-md flex items-center"
-        style={{
-          position: "fixed",
-          top: 0,
-          left: 0,
-          right: 0,
-          height: "80px",
-          zIndex: 10,
-        }}
-      >
-        <div className="container mx-auto px-4 flex items-center justify-between">
-          <Link
-            to="/"
-            className="flex items-center gap-2 text-foreground hover:text-primary transition-colors"
-          >
-            <ArrowLeft className="w-5 h-5" />
-            <span className="font-medium">Voltar ao site</span>
-          </Link>
-          <h1 className="text-lg md:text-2xl font-bold text-foreground">
-            Vitrine MaxxFixação
-          </h1>
-        </div>
-      </header>
-
-      <iframe
-        src="https://maxxfix.egestor.com.br/vitrine/"
-        title="Vitrine MaxxFixação"
-        style={{
-          position: "fixed",
-          top: "80px",
-          bottom: "63px",
-          left: 0,
-          right: 0,
-          width: "100%",
-          height: "calc(100vh - 143px)",
-          overflowY: "auto",
-          zIndex: 0,
-          border: "none",
-        }}
-      />
-
-      <div id="montesite-footer-badge" />
-    </>
+    <iframe
+      src="https://maxxfix.egestor.com.br/vitrine/"
+      title="Vitrine MaxxFixação"
+      className="fixed inset-x-0 bottom-0 top-16 lg:top-20 w-full h-[calc(100vh-4rem)] lg:h-[calc(100vh-5rem)] border-0"
+    />
   );
 };
 

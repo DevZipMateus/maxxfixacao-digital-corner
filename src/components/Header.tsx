@@ -1,16 +1,25 @@
 import { useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Mail } from "lucide-react";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setIsMobileMenuOpen(false);
+    setIsMobileMenuOpen(false);
+
+    if (location.pathname !== "/") {
+      navigate("/");
+      setTimeout(() => {
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+      return;
     }
+
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
 
   const navItems = [
@@ -45,6 +54,12 @@ const Header = () => {
                 {item.label}
               </button>
             ))}
+            <Link
+              to="/vitrine"
+              className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
+            >
+              Vitrine
+            </Link>
           </nav>
 
           {/* Desktop Contact Info */}
@@ -85,6 +100,13 @@ const Header = () => {
                   {item.label}
                 </button>
               ))}
+              <Link
+                to="/vitrine"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-left py-2 px-3 hover:bg-muted rounded-lg transition-colors font-medium"
+              >
+                Vitrine
+              </Link>
               <div className="pt-3 border-t border-border">
                 <div className="flex items-center space-x-2 text-sm text-muted-foreground mb-3">
                   <Phone size={16} />
